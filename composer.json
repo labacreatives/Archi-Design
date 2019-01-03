@@ -3,5 +3,7 @@
     "description": "archi design website",
     "type": "project",
     "license": "MIT",
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^2.5"
+    }
 }
