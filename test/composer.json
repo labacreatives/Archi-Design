@@ -1,0 +1,9 @@
+{
+    "name": "archi-design/website",
+    "description": "archi design website",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "vlucas/phpdotenv": "^2.5"
+    }
+}
