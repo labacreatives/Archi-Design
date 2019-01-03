@@ -11,8 +11,8 @@ $dotenv->load();
 
 define('BR','</br>');
 define('ROOT_DIR' , str_replace("\\","/",dirname(__DIR__,1)));
-define('PUBLIC_DIR' , ROOT_DIR . "/public/");
-define('IMAGES_DIR' , ROOT_DIR . "/public/images/");
+define('PUBLIC_DIR' , ROOT_DIR . "/public_html/");
+define('IMAGES_DIR' , ROOT_DIR . "/public_html/images/");
 define('PROJECT_IMAGES_DIR' , IMAGES_DIR . "/projects/");
 define('DB_NAME',getenv('DB_NAME'));
 define('DB_URL',getenv('DB_URL'));
