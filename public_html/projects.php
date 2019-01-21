@@ -77,7 +77,7 @@ $projects = $projectController->getProjects("*");
                                 <?php foreach ($projects  as $project): ?>
                                 <div class="project-item filterable-item shopping-center">
                                     <figure class="featured-image">
-                                        <a href="project.php"><img src="<?=PROJECT_IMAGES_DIR .$project["image_name"]?>" alt="<?=$project["name"]?>"></a>
+                                        <a href="project.php"><img src="<?=Helper::toBackSlash(PROJECT_IMAGES_DIR .$project["image_name"])?>" alt="<?=$project["name"]?>"></a>
                                         <figcaption>
                                             <h2 class="project-title"><a href="project.php"><?=$project["name"]?></a></h2>
 <!--                                            <p>--><?//=$project["description"]?><!--</p>-->

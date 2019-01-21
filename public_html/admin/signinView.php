@@ -25,7 +25,7 @@ if(Input::exists("signin")){
         'email'=>array('required'=>true),
         'password'=>array('required'=>true)
     );
-    $validation->validate($data_to_validate);
+    $validation->validateInput($data_to_validate);
     if($validation->passed){
         $user = new User();
         $user->setEmail(Input::get('email'));

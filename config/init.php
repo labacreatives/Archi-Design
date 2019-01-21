@@ -1,6 +1,5 @@
 <?php
 session_start();
-require '../vendor/autoload.php';
 require_once ("config.php");
 
 spl_autoload_register(function($file_name){

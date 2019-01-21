@@ -3,7 +3,7 @@
 		//send ajax call to disable project
         var enabled = event.target.checked ? 1 : 0;
         var projectId = event.target.id;
-        url = `../../cms/api/updateProject.php?action=update-status&id=${projectId}&enabled=${enabled}`;
+        url = `../../public_html/admin/index.php?action=update-status&id=${projectId}&enabled=${enabled}`;
 		$.get(url ,function (data, status) {
             if(status === "success"){
                 console.log(data)

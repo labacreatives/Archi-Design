@@ -25,7 +25,7 @@ if(Input::exists("updateProject")){
         'name' => array('required'=>true,'min'=>2,'max'=>32,'unique'=>'projects'),
         'image'=>array('max_size'=>2097152,'file_type'=>array("jpg","jpeg","png","bmp"))
     );
-    $validation->validate($data_to_validate);
+    $validation->validateInput($data_to_validate);
     if($validation->passed){
         $project_manager = ProjectController::getInstance();
         $project = new Project(

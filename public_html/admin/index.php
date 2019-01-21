@@ -12,6 +12,14 @@ if(!Session::exists('user_id') && false){
 }
 $Project_manager = ProjectController::getInstance();
 $projects = $Project_manager->getProjects(false);
+//handle ajax request
+if(Input::get("action", "GET") == "update-status"){
+    $projectId = Input::get("id", "GET");
+    $enabled = Input::get("enabled", "GET");
+    $projectController = ProjectController::getInstance();
+    $success = $projectController->disableProject($projectId , $enabled);
+    echo($success);
+}
 ?>
 
 <!DOCTYPE>
@@ -55,7 +63,7 @@ $projects = $Project_manager->getProjects(false);
             <div class="main-navigation">
                 <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
                 <ul class="menu">
-                    <li class="menu-item current-menu-item"><a href="viewProjects.php">Projects</a></li>
+                    <li class="menu-item current-menu-item"><a href="#">Projects</a></li>
                     <li class="menu-item"><a href="users.php">Users</a></li>
                 </ul> <!-- .menu -->
             </div> <!-- .main-navigation -->

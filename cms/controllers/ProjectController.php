@@ -83,15 +83,15 @@ class ProjectController {
         return count($projects) > 0 ? $projects : false;
     }
 
-    function updateProject($projectId, array $fieldsToUpdate, array $dataToUpdateWith){
-        return $this->database->update('Projects',$fieldsToUpdate,$dataToUpdateWith,"WHERE id = '{$projectId}'");
+    function updateProject($projectId, array $newData){
+        return $this->database->update('projects',$newData,"WHERE `projects`.`id` = {$projectId}");
     }
     public function disableProject($id, $enabled){
-        return $this->database->update('Projects',array('enabled'),
-            array($enabled),"WHERE id = '{$id}'");
+        return $this->database->update('projects',array('enabled'=>$enabled),
+            "WHERE id = '{$id}'");
     }
     private function ProjectExists($column,$value){
-        $result = $this->database->select('Projects',array($column),"WHERE {$column}='{$value}';");
+        $result = $this->database->select('projects',array($column),"WHERE {$column}='{$value}';");
         if($result && count($result)== 1){
             return true;
         }

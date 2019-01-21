@@ -2,8 +2,241 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="097a70fb-60e8-498e-b8b8-39a3f3eba784" name="Default" comment="renamed public folder to public_html">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/api/project.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/api/project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/controllers/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/models/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/models/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/admin/project/addProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/admin/project/addProject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/admin/project/removeProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/admin/project/removeProject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/admin/project/updateProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/admin/project/updateProject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/admin/signinView.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/admin/signinView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/admin/signupView.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/admin/signupView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/admin/updateProjectView.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/admin/updateProjectView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cms/api/project.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cms/controllers/ProjectController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cms/controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cms/models/Database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cms/models/Project.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cms/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config/init.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/AutoLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/Hash.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/Helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/Input.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/Session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/Validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/contact/ContactForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/project/addProject.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/project/projectsView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/project/removeProject.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/project/updateProject.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/project/viewProject.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/project/viewProjects.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/signinView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/signupView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/updateProjectView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/admin/user/userView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-toggle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap-toggle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap2-toggle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/css/bootstrap2-toggle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/cover_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/cover_pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/cover_pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/enezuriash apartment.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/hijra apartmnets.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-4@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-5@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-6@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-7@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-8@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/large-thumb-9@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/midbreak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/nationalmotors.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/section-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/section-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/section-img@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/section-img@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/single-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/single-image@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/single-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/single-large@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/slide-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/slide-2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/slide-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/slide-3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/small-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/small-thumb-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/small-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/small-thumb-2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/small-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/small-thumb-3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-4@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-5@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-6@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-7@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/thumb-8@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/dummy/tiruneh apartments.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/fonts/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/arrow-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/arrow-back@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/arrow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/icon-envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/icon-envelope@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/icon-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/icon-marker@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/icon-phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/icon-phone@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/logo-OLD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/next@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/paging-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/paging-active@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/paging-inactive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/paging-inactive@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/prev@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04da814b856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04daf5dbadd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04db255b233.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04dbbcaf422.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04dbeb91ffc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04dd258b90c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04dd883d686.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04dde0a050a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04df78652a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04dffbc0444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04e034c272d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04e0bd5d279.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c04ebfa453b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c07897963ec9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c2c78b56ddcc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c2c7c902c5ee.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c2c814c7f121.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c2c88a208c00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c2c952967f9f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c2c962b29eb6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/5c2c9701a350b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects/images (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/images/projects5c2c76de1d1f9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap-toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap-toggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap-toggle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap2-toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap2-toggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/bootstrap2-toggle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/ie-support/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/ie-support/pie.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/ie-support/respond.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/jquery-1.11.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/min/app-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/min/plugins-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/project.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/projects.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/layout/_content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/_components.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/_global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/bootstrap-grid/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/bootstrap-grid/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/libs/bootstrap-grid/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Dotenv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Exception/ExceptionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Exception/InvalidCallbackException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Exception/InvalidFileException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Exception/InvalidPathException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Exception/ValidationException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vendor/vlucas/phpdotenv/src/Validator.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +264,20 @@
       <file leaf-file-name="updateProject.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/admin/project/updateProject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2000">
-              <caret line="100" selection-start-line="100" selection-end-line="100" selection-end-column="7" />
+            <state relative-caret-position="2200">
+              <caret line="110" column="168" selection-start-line="110" selection-start-column="168" selection-end-line="110" selection-end-column="168" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="59" />
+              <folding>
+                <element signature="e#6#91#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,47 +291,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/init.php">
+      <file leaf-file-name="ClassLoader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="209">
+              <caret line="325" selection-start-line="325" selection-end-line="325" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="100">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/controllers/ProjectController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".cpanel.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.cpanel.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="569">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -94,26 +321,35 @@
       <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/models/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="169">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helper.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Helper.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/Helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="489">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -139,6 +375,7 @@
       <find>button</find>
       <find>name</find>
       <find>transpa</find>
+      <find>$name</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -149,6 +386,8 @@
       <replace>small</replace>
       <replace>button-small</replace>
       <replace>description</replace>
+      <replace>$dataValue</replace>
+      <replace>$dataName</replace>
     </replaceStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -178,21 +417,26 @@
         <option value="$PROJECT_DIR$/public/admin/index.php" />
         <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/lib/Input.php" />
-        <option value="$PROJECT_DIR$/lib/Validation.php" />
         <option value="$PROJECT_DIR$/public/admin/project/addProject.php" />
         <option value="$PROJECT_DIR$/cms/api/updateProject.php" />
-        <option value="$PROJECT_DIR$/cms/api/project.php" />
-        <option value="$PROJECT_DIR$/lib/Helper.php" />
         <option value="$PROJECT_DIR$/public/admin/project/updateProject.php" />
-        <option value="$PROJECT_DIR$/cms/controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/public/projects.php" />
         <option value="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Dotenv.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/cms/models/Database.php" />
-        <option value="$PROJECT_DIR$/config/init.php" />
-        <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/.cpanel.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/init.php" />
+        <option value="$PROJECT_DIR$/lib/Validation.php" />
+        <option value="$PROJECT_DIR$/cms/models/Database.php" />
+        <option value="$PROJECT_DIR$/cms/api/project.php" />
+        <option value="$PROJECT_DIR$/public_html/admin/project/addProject.php" />
+        <option value="$PROJECT_DIR$/public_html/js/app.js" />
+        <option value="$PROJECT_DIR$/cms/controllers/ProjectController.php" />
+        <option value="$PROJECT_DIR$/public_html/admin/index.php" />
+        <option value="$PROJECT_DIR$/public_html/admin/project/updateProject.php" />
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/public_html/projects.php" />
+        <option value="$PROJECT_DIR$/lib/Helper.php" />
       </list>
     </option>
   </component>
@@ -205,19 +449,20 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="f6f72668-f54d-4d51-a4ff-b68cb0b6bdc7" name="localhost" />
+      <server host="www.localhost" id="33b8c0e0-66ed-423b-8e17-ce9aa48490a8" name="www.localhost" />
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\xampp\htdocs\archi-design" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/archi-design" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,23 +481,25 @@
             <path>
               <item name="Archi-Design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Archi-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Archi-Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Archi-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Archi-Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Archi-Design" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Archi-Design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Archi-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Archi-Design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Archi-Design" type="462c0819:PsiDirectoryNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Archi-Design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Archi-Design" type="462c0819:PsiDirectoryNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Archi-Design" type="b2602c69:ProjectViewProjectNode" />
@@ -276,14 +523,15 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\archi_design_website\public\images\projects" />
-      <recent name="C:\xampp\htdocs\archi_design_website\cms" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Archi-Design\public_html" />
       <recent name="C:\xampp\htdocs\archi_design_website\public\admin" />
       <recent name="C:\xampp\htdocs\archi_design_website\public" />
       <recent name="C:\xampp\htdocs\archi_design_website" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\archi_design_website\public\images\projects" />
+      <recent name="C:\xampp\htdocs\archi_design_website\cms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,11 +630,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69000000" />
+    <option name="totallyTimeSpent" value="89320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1186" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.35400763" />
@@ -394,21 +641,56 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919848" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3683206" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.35400763" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.35400763" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919848" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="8" weight="0.32919848" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.35400763" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.35400763" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919848" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3683206" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919848" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32919848" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3683206" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.35400763" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32919848" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.35400763" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -467,11 +749,6 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/public_html/projects.php</url>
-          <line>79</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/lib/Validation.php</url>
           <line>62</line>
           <option name="timeStamp" value="34" />
@@ -480,16 +757,6 @@
           <url>file://$PROJECT_DIR$/public_html/admin/project/addProject.php</url>
           <line>21</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/cms/models/Database.php</url>
-          <line>60</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/cms/api/project.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint type="php">
           <url>file://$PROJECT_DIR$/cms/controllers/ProjectController.php</url>
@@ -506,11 +773,41 @@
           <line>7</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/cms/api/project.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/cms/api/project.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cms/models/Database.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public_html/admin/project/updateProject.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/public_html/admin/index.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/Helper.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="47" />
+      <option name="time" value="75" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -522,6 +819,26 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Helper::toBackSlash(PROJECT_IMAGES_DIR .$project[&quot;image_name&quot;]))</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Helper::toBackSlash(PROJECT_IMAGES_DIR .$project[&quot;image_name&quot;])</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>PROJECT_IMAGES_DIR .$project[&quot;image_name&quot;]</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Input::get($dataName)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Helper::arrayToCSV(array(&quot;1&quot;,&quot;2&quot;,&quot;3&quot;),&quot; : &quot;)</expression-string>
         <language-id>PHP</language-id>
@@ -547,36 +864,9 @@
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>PROJECT_IMAGES_DIR .'/'.$project[&quot;image_name&quot;]</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$dir.'/'.$file</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cms/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/models/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/models/Project.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cms/models/User.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -693,23 +983,6 @@
     <entry file="file://$PROJECT_DIR$/public_html/css/bootstrap-toggle.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="82" column="56" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
-          <folding>
-            <element signature="e#6#91#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -734,36 +1007,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Input.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/AutoLoader.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/api/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/admin/project/addProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/phpmyadmin.css.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -793,30 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/controllers/ProjectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/admin/project/updateProject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="100" selection-start-line="100" selection-end-line="100" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/error_report.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -838,24 +1059,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Helper.php">
+    <entry file="file://$PROJECT_DIR$/.cpanel.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="60">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/init.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/staging.archidesignaddis.com-Jan-2019">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="n#validate#0;n#Validation#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/api/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/admin/project/addProject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/controllers/ProjectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/models/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="169">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/admin/project/updateProject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="110" column="168" selection-start-line="110" selection-start-column="168" selection-end-line="110" selection-end-column="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="e#6#91#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -866,31 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/lib/Helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cpanel.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="489">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

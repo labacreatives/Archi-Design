@@ -62,11 +62,14 @@ class Database {
         if(count($dataArray)){
             $columns = "";
             foreach ($dataArray as $key => $value){
-                $columns .= "{$key}='{$value}',";
+                $columns .= "`{$key}`='{$value}'";
             }
             $columns = rtrim($columns,",");
-            $sql = "UPDATE {$table} SET {$columns} {$filter}";
+            $sql = "UPDATE `{$table}` SET {$columns} {$filter}";
             $query = $this->pdo->prepare($sql);
+        }
+        else{
+            return true;
         }
         if($query->execute($values)){
             return true;

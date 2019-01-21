@@ -19,7 +19,7 @@ if(Input::exists("signup")){
         'email'=> array('required'=>true, 'email'=> true,'min'=>9,'unique'=>'users'),
         'password'=> array('required'=>true,'match'=>'re_password','min'=>6,'max'=>16)
     );
-    $validation->validate($data_to_validate);
+    $validation->validateInput($data_to_validate);
     if($validation->passed){
         $user_manager = UserController::getInstance();
         $new_user = new User(Input::get("name"), Input::get("email"), Input::get("password"));

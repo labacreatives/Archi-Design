@@ -8,7 +8,7 @@ class Validation{
 		$this->errors = array();
 		$this->database = Database::getinstance();
 	}
-    public function validate($data=array()){
+    public function validateInput($data=array()){
             foreach ($data as $element => $ruleset) {
                 foreach ((array)$ruleset as $rule => $value) {
                     if($rule == 'require' && $value && empty(Input::get($element)) && Input::get($element) == '')
@@ -81,6 +81,66 @@ class Validation{
             if (empty($this->errors)) {
                     $this->passed = true;
             }
+    }
+
+    public function validate($dataSet, $rulesSet){
+	    foreach ($dataSet as $dataName => $dataValue) {
+            if(isset($rulesSet[$dataName])) {
+                foreach ($rulesSet[$dataName] as $ruleName => $ruleValue) {
+                    switch ($ruleName) {
+                        case 'unique':
+                            $result = $this->database->select($ruleValue, array($dataName), "WHERE {$dataName} = '{$dataValue}'");
+                            if (count($result)) {
+                                $this->errors[] = "{$dataName} already exists";
+                            }
+                            break;
+                        case 'min':
+                            if (strlen($dataValue) < $ruleValue) {
+                                $this->errors[] = "{$dataName} must be atleast {$ruleValue} characters!";
+                            }
+                            break;
+                        case 'max':
+                            if (strlen($dataValue) > $ruleValue) {
+                                $this->errors[] = "{$dataName} can be a maximum of {$ruleValue} characters!";
+                            }
+                            break;
+                        case 'match':
+                            if ($dataValue != $ruleValue) {
+                                $this->errors[] = "{$dataName} and re-{$dataName} don't match!";
+                            }
+                            break;
+                        case 'min_val':
+                            if ($dataValue < $ruleValue) {
+                                $this->errors[] = "{$dataName} can be a minimum of {$ruleValue}";
+                            }
+                            break;
+                        case 'max_val':
+                            if ($dataValue > $ruleValue) {
+                                $this->errors[] = "{$dataName} can be a maximum of {$ruleValue}";
+                            }
+                            break;
+                        case 'max_size':
+                            if (Input::get($dataName, 'FILES', 'size') > $ruleValue) {
+                                $this->errors[] = "{$dataName} can be a maximum size of {$ruleValue}";
+                            }
+                            break;
+                        case 'file_type':
+                            $str_exploded = explode(".", Input::get($dataName, 'FILES', 'name'));
+                            $file_type = strtolower(end($str_exploded));
+                            if (!in_array($file_type, $ruleValue)) {
+                                $this->errors[] = "{$dataName} can only be a type of ".implode("|",$ruleValue);
+                            }
+                            break;
+                        default:
+                            # code...
+                            break;
+                    }
+                }
+            }
+        }
+        if (empty($this->errors)) {
+            $this->passed = true;
+        }
     }
     public function printErrors(){
             foreach ((array)$this->errors as $value) {

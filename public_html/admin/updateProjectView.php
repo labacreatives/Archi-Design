@@ -31,7 +31,7 @@ if(Input::exists("updateProject")){
         'name' => array('required'=>true,'min'=>2,'max'=>32),
         'image'=>array('max_size'=>2097152,'file_type'=>array("jpg","jpeg","png","bmp"))
     );
-    $validation->validate($data_to_validate);
+    $validation->validateInput($data_to_validate);
     if($validation->passed){
         if(isset($_FILES["image"])){
 //            print_r("files".$_FILES);
