@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/archid/staging.archidesignaddis.com/
+    - export DEPLOYPATH=/home/archid/test.archidesignaddis.com/
     - /bin/cp -r * $DEPLOYPATH

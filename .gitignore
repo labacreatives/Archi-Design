@@ -1,4 +1,5 @@
 /public/images/projects
 /vendor/
 *.env
-.idea/*
+.idea
+*.xml
